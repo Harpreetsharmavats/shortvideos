@@ -57,6 +57,7 @@ dependencies {
     implementation(libs.firebase.storage)
     implementation(libs.firebase.database)
     implementation(libs.androidx.fragment)
+    implementation(libs.androidx.legacy.support.v4)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
@@ -64,5 +65,9 @@ dependencies {
     implementation(libs.material.vversion)
     implementation (libs.androidx.fragment.vlatestversion)
     implementation (libs.androidx.appcompat.vlatestversion)
+    implementation ("com.squareup.picasso:picasso:2.8")
+    implementation ("com.makeramen:roundedimageview:2.3.0")
+    implementation ("com.github.bumptech.glide:glide:4.16.0")
+    implementation(libs.timeago)
 
 }

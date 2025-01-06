@@ -2,4 +2,31 @@
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/mobile_navigation2"/>
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/home">
+    <fragment
+        android:id="@+id/home"
+        android:name="com.example.shortvideos.fragments.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/search"
+        android:name="com.example.shortvideos.fragments.SearchFragment"
+        android:label="fragment_search"
+        tools:layout="@layout/fragment_search" />
+    <fragment
+        android:id="@+id/videos"
+        android:name="com.example.shortvideos.fragments.VideoFragment"
+        android:label="fragment_video"
+        tools:layout="@layout/fragment_video" />
+    <dialog
+        android:id="@+id/add"
+        android:name="com.example.shortvideos.fragments.AddFragment"
+        android:label="fragment_add"
+        tools:layout="@layout/fragment_add" />
+    <fragment
+        android:id="@+id/profile"
+        android:name="com.example.shortvideos.fragments.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+</navigation>

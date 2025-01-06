@@ -23,6 +23,8 @@ navigationUiKtx = "2.6.0"
 navigationRuntimeKtx = "2.8.0"
 firebaseDatabase = "21.0.0"
 fragment = "1.8.3"
+legacySupportV4 = "1.0.0"
+timeago = "4.0.3"
 
 [libraries]
 androidx-appcompat-vlatestversion = { module = "androidx.appcompat:appcompat", version.ref = "appcompatVersion" }
@@ -46,6 +48,8 @@ androidx-navigation-runtime-ktx = { group = "androidx.navigation", name = "navig
 firebase-database = { group = "com.google.firebase", name = "firebase-database", version.ref = "firebaseDatabase" }
 material-vversion = { module = "com.google.android.material:material", version.ref = "materialVersion" }
 androidx-fragment = { group = "androidx.fragment", name = "fragment", version.ref = "fragment" }
+androidx-legacy-support-v4 = { group = "androidx.legacy", name = "legacy-support-v4", version.ref = "legacySupportV4" }
+timeago = { module = "com.github.marlonlom:timeago", version.ref = "timeago" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

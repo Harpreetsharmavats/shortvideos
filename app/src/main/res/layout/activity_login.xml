@@ -12,7 +12,7 @@
         android:layout_width="96dp"
         android:layout_height="96dp"
         android:layout_marginTop="132dp"
-        android:src="@drawable/gamma"
+        android:src="@drawable/logo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.539"
         app:layout_constraintStart_toStartOf="parent"
