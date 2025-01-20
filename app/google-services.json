@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "802742339431",
+    "firebase_url": "https://shortvideoapp-cf260-default-rtdb.firebaseio.com",
+    "project_id": "shortvideoapp-cf260",
+    "storage_bucket": "shortvideoapp-cf260.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:802742339431:android:321e766038b733bc2051c2",
+        "android_client_info": {
+          "package_name": "com.example.shortvideos"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkOImqA76GirauRh5_lnGkA8-5EL8C1UA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
