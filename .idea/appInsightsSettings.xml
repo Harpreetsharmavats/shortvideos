@@ -9,9 +9,9 @@
               <option name="connection">
                 <ConnectionSetting>
                   <option name="appId" value="com.example.shortvideos" />
-                  <option name="mobileSdkAppId" value="1:69259767446:android:579bde759cce67cf701cb7" />
-                  <option name="projectId" value="shortvideos-193b7" />
-                  <option name="projectNumber" value="69259767446" />
+                  <option name="mobileSdkAppId" value="1:802742339431:android:321e766038b733bc2051c2" />
+                  <option name="projectId" value="shortvideoapp-cf260" />
+                  <option name="projectNumber" value="802742339431" />
                 </ConnectionSetting>
               </option>
               <option name="signal" value="SIGNAL_UNSPECIFIED" />
